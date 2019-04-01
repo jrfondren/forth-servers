@@ -16,8 +16,6 @@ Extern: int recv ( int fd, void *buf, int len, int flags );
 AliasedExtern: close-socket int close ( int fd );
 Extern: int fork (void);
 Extern: int poll ( struct pollfds *fds, int nfds, int timeout );
-Extern: int wtf_int (void);
-
 
 $1 constant POLLIN
 $8 constant POLLERR
